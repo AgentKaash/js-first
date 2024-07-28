@@ -49,12 +49,34 @@ const bigNumber = 24358813518795n // type of bigNumber -> undefined
 
 const heros = ["thor", "ironman","hulk"]; //type of heros(function) -> object function
 
-let myObj ={
-    name:kaash,
-    age:22,
-}
+// let myObj ={
+//     name:kaash,
+//     age:22,
+// }
 
 const myFunction = function(){ // type of myFunction --> object
     console.log("hello world");
 }
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack(Primitive), Heap (Non-primitive)
+
+let myYoutubename= "Kaashalaicom"
+let anothername = myYoutubename
+ anothername = "chaiaurcode"
+ console.log(myYoutubename);
+ console.log(anothername);
+
+
+ let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+ }
+
+ let userTwo = userOne 
+ userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
