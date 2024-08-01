@@ -13,6 +13,19 @@ let myDate = new Date()
 // let myCreateDate = new Date(2024, 6, 31, 23, 18)
 let myCreateDate = new Date("2024-7-31")
 
-console.log(myCreateDate.toLocaleString());
+// console.log(myCreateDate.toLocaleString());
 
-let myTimeStamp
+let myTimeStamp = Date.now()
+// console.log(myTimeStamp);
+// console.log(myCreateDate);
+// console.log(Math.floor(Date.now()/1000));
+
+
+let newDate = new Date()
+// console.log()
+
+newDate.toLocaleString('deafult', {
+    weekday:"narrow",
+})
+
+console.log( new Date());
