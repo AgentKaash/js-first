@@ -1,11 +1,5 @@
 // const tinderUser = new Object() //--> singke turn obj
-// const tinderUser = {} // -->non single
 
-// tinderUser.id="123ab"
-// tinderUser.name= "sam"
-// tinderUser.isLoggedIn = false
-
-// console.log(tinderUser);
 
 const regularUser = {
     email: "sam@gmail.com",
@@ -33,6 +27,47 @@ const obj3 = {...obj1,...obj2}
 
 const users = [
     {
-        
+        id:1,
+        email:"k@gmail.com"
+    },
+    {
+           id:1,
+        email:"k@gmail.com"
+    },
+    {
+           id:1,
+        email:"k@gmail.com"
     }
 ]
+
+// console.log(users[1].email);
+
+
+
+const tinderUser = {} // -->non single
+
+tinderUser.id="123ab"
+tinderUser.name= "sam"
+tinderUser.isLoggedIn = false
+
+// console.log(tinderUser);
+
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+
+const course ={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+const {courseInstructor: CI} = course
+
+console.log(CI);
+
